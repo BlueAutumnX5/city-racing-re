@@ -10,7 +10,7 @@ your installed copy, checked against `docs/MANIFEST-sha256_2026-09-20.txt` (the 
 Windows only for now.
 
 ## New PC: first run
-> [!WARNING]
+> [!IMPORTANT]
 > This tool has only been tested on my current system setup. Please report any compatibility issues or error logs in GitHub [**Issues**](https://github.com/BlueAutumnX5/city-racing-re/issues)!
 1. Install City Racing from GameTop. The default folder is fine, and so is the renamed `City Racing RE` folder.
 2. Double-click **`setup.bat`**. It:
