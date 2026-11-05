@@ -75,7 +75,7 @@ what it found.
   source editors that have already been applied.
 - `docs/`: findings, stock car stats, the install manifest, and `docs/memory/`, the Windows-side Claude's
   project notes (read `city-racing-handoff.md` first).
-- `assets_src/`: the Milky Way texture (ESO/S. Brunier, CC BY 4.0, see `CREDITS.txt`).
+- `assets_src/`: the Milky Way texture (ESO/S. Brunier, CC BY 4.0, see [`CREDITS.txt`](https://github.com/BlueAutumnX5/city-racing-re/blob/master/assets_src/CREDITS.md)).
 - `New audio/`: the player's added music and ambience tracks, which the `newaudio` extra installs.
 - `mods/`: data edits stored as patches against the pristine archives.
 
