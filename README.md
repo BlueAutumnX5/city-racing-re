@@ -78,3 +78,10 @@ what it found.
 - `assets_src/`: the Milky Way texture (ESO/S. Brunier, CC BY 4.0, see `CREDITS.txt`).
 - `New audio/`: the player's added music and ambience tracks, which the `newaudio` extra installs.
 - `mods/`: data edits stored as patches against the pristine archives.
+
+## License & Credits
+
+- **Toolkit Code:** Licensed under [GNU General Public License v3.0](LICENSE).
+- **Third-Party Assets:** Third-party audio and textures are not covered by the GPL and retain their original licenses (see credit files in their respective folders):
+  - **Audio (`/New audio/Data/Audio/MusTrks/`):** "-Ricochet Love-" by Waterflame (CC BY-NC-SA 3.0).
+  - **Galaxy Texture (`/assets_src/`):** "The Milky Way panorama" by ESO/S. Brunier (CC BY 4.0, modified to DDS).
