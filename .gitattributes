@@ -1,0 +1,10 @@
+# Windows-first project: launchers MUST be CRLF; keep scripts CRLF on checkout too.
+* text=auto
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.cs text eol=crlf
+*.py text eol=crlf
+*.dll binary
+*.dds binary
+*.wav binary
+*.obj binary

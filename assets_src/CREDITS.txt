@@ -1,0 +1,4 @@
+Data/Sky/MilkyWay.jpg (milkyway extra) is made from:
+  "The Milky Way panorama" (eso0932a) - ESO/S. Brunier - https://www.eso.org/public/images/eso0932a/
+  License: Creative Commons Attribution 4.0 (CC BY 4.0). Credit line: ESO/S. Brunier
+  Changes: resized to 4096x2048, sky background levelled to black (skyprep.py).

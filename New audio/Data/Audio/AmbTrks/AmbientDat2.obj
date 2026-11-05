@@ -1,0 +1,27 @@
+///////////////////////////////////////////////////////////
+// Ambient tracks data (city)                            //
+///////////////////////////////////////////////////////////
+Tracks DAY:                     5
+Data/Audio/AmbTrks/AmbCityD01.wav
+Data/Audio/AmbTrks/AmbCityD02.wav
+Data/Audio/AmbTrks/AmbCityD03.wav
+Data/Audio/AmbTrks/AmbCityD04.wav
+Data/Audio/AmbTrks/AmbCityX01.wav
+Tracks NIGHT:                   5
+Data/Audio/AmbTrks/AmbCityD01.wav
+Data/Audio/AmbTrks/AmbCityD02.wav
+Data/Audio/AmbTrks/AmbCityD03.wav
+Data/Audio/AmbTrks/AmbCityD04.wav
+Data/Audio/AmbTrks/AmbCityX01.wav
+///////////////////////////////////////////////////////////
+// Ambient tracks data (forest)                          //
+///////////////////////////////////////////////////////////
+Tracks DAY:                     3
+Data/Audio/AmbTrks/AmbFrstD01.wav
+Data/Audio/AmbTrks/AmbFrstD02.wav
+Data/Audio/AmbTrks/AmbFrstD03.wav
+Tracks NIGHT:                   4
+Data/Audio/AmbTrks/AmbFrstN01.wav
+Data/Audio/AmbTrks/AmbFrstN02.wav
+Data/Audio/AmbTrks/AmbFrstN03.wav
+Data/Audio/AmbTrks/AmbFrstN04.wav

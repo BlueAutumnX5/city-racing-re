@@ -1,0 +1,11 @@
+# game.exe is 32-bit: the DLL is built for i686 and links against nothing (no CRT, no imports), so it
+# loads the same way into the game and into the Unicorn simulator (drivesim2.py).
+# rust-lld (ships with rustup) instead of MSVC link.exe: no Visual Studio needed, and it cross-builds from Linux.
+[target.i686-pc-windows-msvc]
+linker = "rust-lld"
+rustflags = [
+    "-C", "link-arg=/NODEFAULTLIB",
+    "-C", "link-arg=/ENTRY:_DllMainCRTStartup",
+    "-C", "link-arg=/BASE:0x6F000000",
+    "-C", "link-arg=/SAFESEH:NO",
+]

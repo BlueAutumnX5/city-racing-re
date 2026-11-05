@@ -1,0 +1,15 @@
+import crpaths  # noqa: E402  (machine paths: crpaths.py / local.ini)
+import re, sys
+sys.path.insert(0, crpaths.RETOOLS)
+data = open(crpaths.STOCK_EXE, "rb").read()
+strs = set(m.group().decode("latin-1") for m in re.finditer(rb"[\x20-\x7e]{5,}", data))
+def show(label, pat, n=12):
+    hits = sorted(s for s in strs if re.search(pat, s))
+    print(f"--- {label}: {len(hits)}")
+    for s in hits[:n]: print("   ", s[:100])
+show("Bullet", r"^bt[A-Z]|Bullet|stepSimulation")
+show("D3DX / DirectX", r"D3DX|d3dx|DirectX|d3d9|D3D9|dsound|DirectSound|dinput", 15)
+show("compiler / runtime", r"Microsoft|Visual C|MSVC|msvcr|\.pdb|RSDS", 10)
+show("C-classes", r"^\.\?AV[A-Z]", 40)
+show("copyright / company", r"[Cc]opyright|\(c\)|Studio|Games|Entertainment|Software|Ltd|LLC|GmbH|Inc\.", 20)
+show("engine words", r"[Ee]ngine|Render(er)?\b|Scene", 15)

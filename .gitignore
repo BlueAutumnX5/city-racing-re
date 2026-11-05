@@ -1,0 +1,40 @@
+# ---- the game's own files never go in the repo ----
+*.exe
+*.pak
+*.hdr
+*.sav
+*.sav.old
+Game.ini
+/extracted/
+/rebuilt/
+/ads/
+/maps/
+/Engine sounds/
+/HUD faces/
+# ---- per-machine ----
+/local/
+/local.ini
+/.venv/
+/backups/
+__pycache__/
+*.pyc
+/rust/*/target/
+# ---- runtime state / logs / measurements ----
+racemod_state.json
+crpanel.log
+crpanel_prefs.json
+hl_cookie_cache.dds
+hl_cookie_cache.dds.key
+/Stutter reports/
+*.csv
+*.jsonl
+cpuprofile_*.txt
+*.dmp
+*.bin
+*.npz
+*.pkl
+*.pickle
+re-tools/*.png
+re-tools/*.txt
+re-tools/s2_*.json
+re-tools/_assettest/

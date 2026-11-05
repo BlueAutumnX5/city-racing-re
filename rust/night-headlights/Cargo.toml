@@ -1,0 +1,13 @@
+[package]
+name = "night-headlights"
+version = "0.1.0"
+edition = "2021"
+description = "Night & Headlights live control window for City Racing RE (private RE project)"
+
+[dependencies]
+
+[profile.release]
+opt-level = "s"
+lto = true
+panic = "abort"
+strip = true

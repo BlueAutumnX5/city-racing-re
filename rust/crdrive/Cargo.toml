@@ -1,0 +1,17 @@
+[package]
+name = "crdrive"
+version = "0.1.0"
+edition = "2021"
+description = "City Racing drivetrain: per-car manual / automatic / F1 gearboxes, loaded into game.exe by racemod"
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+panic = "abort"
+opt-level = 3
+lto = true
+codegen-units = 1
+
+[profile.dev]
+panic = "abort"

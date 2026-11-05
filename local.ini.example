@@ -1,0 +1,9 @@
+; Copy to local.ini (same folder) only if the defaults are wrong on this PC. local.ini is not committed.
+; Environment variables CR_GAME_DIR / CR_BACKUPS / CR_MUSIC override these.
+[paths]
+; the game folder (the one with game.exe). Default: found from the uninstall registry entry.
+;game = C:\Program Files (x86)\GameTop.com\City Racing RE
+; where the untouched copy of the game lives (2026-09-20_original-native\ inside it). Default: local\backups
+;backups = D:\Projects Overflow\City Racing RE backups
+; the 3 MP3s newaudio.py builds "New audio\" from. Default: local\music
+;music = D:\My Downloads\Music
